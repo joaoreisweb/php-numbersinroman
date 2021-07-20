@@ -1,0 +1,22 @@
+{
+    "name": "joaoreisweb/numbers-in-roman",
+    "description": "This library convert numbers into roman numerals.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["number", "numbers", "in", "to", "roman", "converter", "string", "numerals", "currency", "numbers-to-text"],
+    "authors": [{
+        "name": "Joao Reis",
+        "email": "web@joaoreis.pt"
+    }],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "joaoreisweb\\": "src/"
+        }
+    },
+    "autoload-dev": {}
+}
