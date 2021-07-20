@@ -1,6 +1,10 @@
 # php-numbersinroman
 This library convert numbers into roman numerals.
 
+## INSTALL with composer
+```bash
+composer require joaoreisweb/numbers-in-roman
+```
 
 ## USAGE
 ```php
