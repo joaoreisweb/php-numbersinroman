@@ -24,7 +24,7 @@ echo '<br>'.$number.' - '.$number_convert->convertIntToRoman($number);
 $number = 1550;
 echo '<br>'.$number.' - '.$number_convert->convertIntToRoman($number);
 
-$roman = 'MDDCXXI';
+$roman = 'MMXXI';
 echo '<br>'.$roman.' - '.$number_convert->convertRomanToInt($roman);
 
 $roman = 'MCDDXIV';
@@ -37,7 +37,7 @@ echo '<br>'.$roman.' - '.$number_convert->convertRomanToInt($roman);
 1600 - MDC
 1000 - M
 1550 - MDL
-MDDCXXI - 2121
+MMXXI - 2021
 MCDDXIV - 1914
 ```
 
