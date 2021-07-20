@@ -1,21 +1,26 @@
 <?php
-//require_once __DIR__ . '/vendor/autoload.php';
+
 require_once realpath("vendor/autoload.php");
 
 use joaoreisweb\NumbersInRoman;
 
 $number_convert = new NumbersInRoman();
 
-echo '<br>'.$number_convert->convertIntToRoman(1500);
+$number = 1500;
+echo '<br>'.$number.' - '.$number_convert->convertIntToRoman($number);
 
-echo '<br>'.$number_convert->convertIntToRoman(1600);
+$number = 1600;
+echo '<br>'.$number.' - '.$number_convert->convertIntToRoman($number);
 
-echo '<br>'.$number_convert->convertIntToRoman(1000);
+$number = 1000;
+echo '<br>'.$number.' - '.$number_convert->convertIntToRoman($number);
 
-echo '<br>'.$number_convert->convertIntToRoman(1550);
+$number = 1550;
+echo '<br>'.$number.' - '.$number_convert->convertIntToRoman($number);
 
-echo '<br>'.$number_convert->convertRomanToInt('MDDCIX');
+$roman = 'MDDCIX';
+echo '<br>'.$roman.' - '.$number_convert->convertRomanToInt('MDDCIX');
 
-$num = 'MCDDIXIIIII';
-echo '<br>'.$num.' - '.$number_convert->convertRomanToInt($num);
+$roman = 'MCDDIXIIIII';
+echo '<br>'.$roman.' - '.$number_convert->convertRomanToInt('MCDDIXIIIII');
 
