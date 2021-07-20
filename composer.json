@@ -3,7 +3,7 @@
     "description": "This library convert numbers into roman numerals.",
     "type": "library",
     "license": "MIT",
-    "keywords": ["number", "numbers", "in", "to", "roman", "converter", "string", "numerals", "currency", "numbers-to-text"],
+    "keywords": ["number", "numbers", "in", "to", "roman", "converter", "string", "numerals", "numbers-to-text"],
     "authors": [{
         "name": "Joao Reis",
         "email": "web@joaoreis.pt"
