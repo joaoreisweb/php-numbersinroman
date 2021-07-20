@@ -24,21 +24,21 @@ echo '<br>'.$number.' - '.$number_convert->convertIntToRoman($number);
 $number = 1550;
 echo '<br>'.$number.' - '.$number_convert->convertIntToRoman($number);
 
-$roman = 'MDDCIX';
-echo '<br>'.$roman.' - '.$number_convert->convertRomanToInt('MDDCIX');
+$roman = 'MDDCXXI';
+echo '<br>'.$roman.' - '.$number_convert->convertRomanToInt($roman);
 
-$roman = 'MCDDIXIIIII';
-echo '<br>'.$roman.' - '.$number_convert->convertRomanToInt('MCDDIXIIIII');
+$roman = 'MCDDXIV';
+echo '<br>'.$roman.' - '.$number_convert->convertRomanToInt($roman);
 ```
 
 ## RESULTS
 ```bash
-MD
-MDC
-M
-MDL
-2109
-MCDDIXIIIII - 1914
+1500 - MD
+1600 - MDC
+1000 - M
+1550 - MDL
+MDDCXXI - 2121
+MCDDXIV - 1914
 ```
 
 

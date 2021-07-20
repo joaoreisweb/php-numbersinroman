@@ -18,9 +18,9 @@ echo '<br>'.$number.' - '.$number_convert->convertIntToRoman($number);
 $number = 1550;
 echo '<br>'.$number.' - '.$number_convert->convertIntToRoman($number);
 
-$roman = 'MDDCIX';
-echo '<br>'.$roman.' - '.$number_convert->convertRomanToInt('MDDCIX');
+$roman = 'MDDCXXI';
+echo '<br>'.$roman.' - '.$number_convert->convertRomanToInt($roman);
 
-$roman = 'MCDDIXIIIII';
-echo '<br>'.$roman.' - '.$number_convert->convertRomanToInt('MCDDIXIIIII');
+$roman = 'MCDDXIV';
+echo '<br>'.$roman.' - '.$number_convert->convertRomanToInt($roman);
 
