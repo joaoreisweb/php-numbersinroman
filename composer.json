@@ -2,7 +2,7 @@
     "name": "joaoreisweb/numbers-in-roman",
     "description": "This library convert numbers into roman numerals.",
     "type": "library",
-    "license": "MIT",
+    "license": "GPL-3.0-or-later",
     "keywords": ["number", "numbers", "in", "to", "roman", "converter", "string", "numerals", "numbers-to-text"],
     "authors": [{
         "name": "Joao Reis",
